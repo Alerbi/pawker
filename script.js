@@ -223,7 +223,7 @@ revealBtn.addEventListener("click", () => {
         coinSound.play();
 
         // Check if you hit the "Total Victory" goal
-        if (game.tokens >= 101) {
+        if (game.tokens >= 10000) {
             const overlay = document.getElementById("victoryOverlay");
             const finalTokens = document.getElementById("finalTokenCount");
             finalTokens.textContent = `You finished with ${game.tokens} tokens!`;
